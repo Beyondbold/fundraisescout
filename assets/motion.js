@@ -1,4 +1,4 @@
-/* Raiseline motion layer.
+/* Fundraise Scout motion layer.
    Every effect is skipped when the visitor has "reduce motion" turned on. */
 (function () {
   "use strict";
