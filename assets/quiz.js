@@ -93,7 +93,7 @@
       '<div class="field-row"><div class="field"><label for="lc">Company</label><input id="lc" name="company" type="text" autocomplete="organization" required></div>' +
       '<div class="field"><label for="lw">Website</label><input id="lw" name="companyUrl" type="text" inputmode="url" placeholder="yourcompany.com"></div></div>' +
       '<div class="field"><label for="lnote">Anything else we should know? <span class="muted">(optional)</span></label><textarea id="lnote" name="notes" rows="3"></textarea></div>' +
-      '<label class="check field"><input type="checkbox" name="consent" required> I agree to be contacted about my raise. Raiseline may receive referral compensation from platforms — see our disclosures.</label>' +
+      '<label class="check field"><input type="checkbox" name="consent" required> I agree to be contacted about my raise. Fundraise Scout may receive referral compensation from platforms — see our disclosures.</label>' +
       '<div class="hp" aria-hidden="true"><input name="website_hp" tabindex="-1" autocomplete="off"></div>' +
       '<button class="btn btn-primary" type="submit">Send me my shortlist</button><p class="form-msg" role="status"></p></form></div>' +
       '<p class="mt-2"><button type="button" class="btn btn-ghost btn-sm" data-restart>Retake the quiz</button></p>';
@@ -108,7 +108,7 @@
       var data = { formType: "founder-quiz", score: score, verdict: v, answers: summary };
       new FormData(form).forEach(function (val, key) { if (key !== "website_hp") data[key] = val; });
       btn.disabled = true; msg.classList.remove("err"); msg.textContent = "Sending…";
-      window.RaiselineSubmit(data).then(function () {
+      window.FSSubmit(data).then(function () {
         var done = '<div class="callout callout--green"><p><strong>Got it — thanks, ' + esc(data.name.split(" ")[0]) + '.</strong> Your shortlist will land in your inbox within two business days.</p></div>';
         if (SITE.bookingUrl) done += '<p class="mt-2">Want to talk it through sooner? <a href="' + esc(SITE.bookingUrl) + '" target="_blank" rel="noopener">Book a 20-minute call</a>.</p>';
         form.outerHTML = done;
