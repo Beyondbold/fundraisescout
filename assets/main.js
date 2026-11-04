@@ -26,7 +26,7 @@
     payload.page = location.pathname;
     payload.submittedAt = new Date().toISOString();
     if (!SITE.formEndpoint) {
-      console.info("[Raiseline] No formEndpoint set in assets/config.js. Submission:", payload);
+      console.info("[Fundraise Scout] No formEndpoint set in assets/config.js. Submission:", payload);
       return Promise.resolve();
     }
     return fetch(SITE.formEndpoint, {
@@ -35,7 +35,7 @@
       body: JSON.stringify(payload)
     }).then(function (r) { if (!r.ok) throw new Error("HTTP " + r.status); });
   }
-  window.RaiselineSubmit = submitLead;
+  window.FSSubmit = submitLead;
 
   $$("form[data-lead]").forEach(function (form) {
     form.addEventListener("submit", function (e) {
