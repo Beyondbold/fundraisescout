@@ -1,1 +1,12 @@
-{ "cleanUrls": true, "trailingSlash": false }
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "fundraisescout.vercel.app" }],
+      "destination": "https://www.fundraisescout.com/:path*",
+      "permanent": true
+    }
+  ]
+}
