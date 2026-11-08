@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://fundraisescout.vercel.app/about</loc></url>
-  <url><loc>https://fundraisescout.vercel.app/founders</loc></url>
-  <url><loc>https://fundraisescout.vercel.app/</loc></url>
-  <url><loc>https://fundraisescout.vercel.app/investors</loc></url>
-  <url><loc>https://fundraisescout.vercel.app/learn/choosing-a-funding-portal</loc></url>
-  <url><loc>https://fundraisescout.vercel.app/learn/cost-of-a-reg-cf-raise</loc></url>
-  <url><loc>https://fundraisescout.vercel.app/learn/how-to-read-a-form-c</loc></url>
-  <url><loc>https://fundraisescout.vercel.app/learn</loc></url>
-  <url><loc>https://fundraisescout.vercel.app/learn/reg-cf-vs-reg-a-vs-reg-d</loc></url>
-  <url><loc>https://fundraisescout.vercel.app/learn/testing-the-waters</loc></url>
-  <url><loc>https://fundraisescout.vercel.app/learn/what-is-reg-cf</loc></url>
-  <url><loc>https://fundraisescout.vercel.app/quiz</loc></url>
+  <url><loc>https://www.fundraisescout.com/about</loc><lastmod>2026-11-08</lastmod></url>
+  <url><loc>https://www.fundraisescout.com/founders</loc><lastmod>2026-11-08</lastmod></url>
+  <url><loc>https://www.fundraisescout.com/</loc><lastmod>2026-11-08</lastmod></url>
+  <url><loc>https://www.fundraisescout.com/investors</loc><lastmod>2026-11-08</lastmod></url>
+  <url><loc>https://www.fundraisescout.com/learn/choosing-a-funding-portal</loc><lastmod>2026-11-08</lastmod></url>
+  <url><loc>https://www.fundraisescout.com/learn/cost-of-a-reg-cf-raise</loc><lastmod>2026-11-08</lastmod></url>
+  <url><loc>https://www.fundraisescout.com/learn/how-to-read-a-form-c</loc><lastmod>2026-11-08</lastmod></url>
+  <url><loc>https://www.fundraisescout.com/learn</loc><lastmod>2026-11-08</lastmod></url>
+  <url><loc>https://www.fundraisescout.com/learn/reg-cf-vs-reg-a-vs-reg-d</loc><lastmod>2026-11-08</lastmod></url>
+  <url><loc>https://www.fundraisescout.com/learn/testing-the-waters</loc><lastmod>2026-11-08</lastmod></url>
+  <url><loc>https://www.fundraisescout.com/learn/what-is-reg-cf</loc><lastmod>2026-11-08</lastmod></url>
+  <url><loc>https://www.fundraisescout.com/quiz</loc><lastmod>2026-11-08</lastmod></url>
+  <url><loc>https://www.fundraisescout.com/stories</loc><lastmod>2026-11-08</lastmod></url>
 </urlset>
